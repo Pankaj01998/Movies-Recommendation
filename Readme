@@ -1,0 +1,26 @@
+1) First run data_fil.py by typing "python data_fil.py" in terminal.
+2) These will give you three csv files whose names are ratings.csv, movies.csv and users.csv. 
+
+3) Next run content_based.py by typing "python content_based.py" in terminal which shows recommendation of movie based on method called content based filtering.
+4) These command during it's running will ask the user to enter the movie name. Enter the movie which you watched last time and then according to it it will give recommendation of 10 movies.
+
+a) Below is the first example in which first column gives movie index given in dataset and second column gives name of movie
+
+Give the name of movie : Jumanji (1995)
+55                         Kids of the Round Table (1995)
+59                     Indian in the Cupboard, The (1995)
+124                     NeverEnding Story III, The (1994)
+996                       Escape to Witch Mountain (1975)
+1898                                     Labyrinth (1986)
+1936                                  Goonies, The (1985)
+1974            Darby O'Gill and the Little People (1959)
+2092                        NeverEnding Story, The (1984)
+2093    NeverEnding Story II: The Next Chapter, The (1...
+2330                        Santa Claus: The Movie (1985)
+
+b) Below is the second example when movie name is not in our dataset
+
+Give the name of movie : Robot 2.0
+Given name is not in dataset
+
+
